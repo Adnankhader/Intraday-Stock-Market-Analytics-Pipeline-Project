@@ -32,11 +32,11 @@ Power BI
 
 🔄 Architecture & Data Flow
 yfinance (NSE 5-minute data)
-        ↓
+        -->
 Python ETL Pipeline
-        ↓
+        -->
 SQL Server (Tables + Analytics Views)
-        ↓
+        -->
 Power BI Dashboards
 
 📊 Data Collected
@@ -93,24 +93,13 @@ Execution logs generated for monitoring and debugging
 📈 Power BI Dashboards
 Page 1 – Market Overview
 
-<img width="1104" height="618" alt="image" src="https://github.com/user-attachments/assets/9232e17d-9a59-4a25-ac93-7f4e649f63de" />
+<img width="1310" height="736" alt="image" src="https://github.com/user-attachments/assets/860de0e1-5f53-430b-8eb3-bb9be996335c" />
+
 
 
 Page 2 – Stock Details Drill-Through
 <img width="1103" height="624" alt="image" src="https://github.com/user-attachments/assets/305c1a75-639e-4241-b134-5c6ecee51b72" />
 
-
-🧪 Current Status
-
-✅ Fully automated pipeline
-
-✅ SQL Server updated every 5 minutes
-
-✅ Power BI connected via SQL views
-
-✅ Scheduler tested and stable
-
-✅ API edge cases handled
 
 🔑 What This Project Demonstrates
 
